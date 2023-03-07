@@ -86,9 +86,33 @@ Esercitazione 3
 
 Scrivere un blocco di codice Javascript che dato
 un numero stampi la tabellina corrispondente.
- */
-
-for (let i = 0; i < array.length; index++) {
-    const element = array[index];
+ 
+let numero = 2;
+for (let i = 1; i <= 10; i++) {
+    
+    console.log(numero*i);
     
 }
+*/
+
+/*
+Scrivi un blocco di codice che dato un array di
+numeri, calcoli la media dei valori e restituisca in
+output la media e tutti i valori minori della media.
+Esempio:
+Input: a = [3, 5, 10, 2, 8]
+Output: media = 5.6, valori minori = [3, 5, 2]
+
+
+let a = [3, 5, 10, 2, 8]
+
+array.forEach(element => {
+    
+});
+*/
+
+
+
+
+
+
