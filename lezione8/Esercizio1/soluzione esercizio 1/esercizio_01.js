@@ -1,5 +1,17 @@
+/**
+ * Esercizio 1
+
+Scrivere una pagina HTML con all’interno i seguenti campi:
+● bottone
+
+Aggiungere alla pagina HTML una funzione JavaScript che
+● visualizza la tabellina dei primi 10 numeri all’interno di un tag <div>.
+Inoltre, fare in modo che, nel documento HTML, tale funzione JavaScript
+venga eseguita quando l’utente preme il bottone di invio.
+*/
+
 /**in programmazione si DIVIDONO i problemi
- * poi si razionalizza no nsi fa copia incolla del codice
+ * poi si razionalizza non si fa copia incolla del codice
  */
 
 /**prendo div root on get element poi ciclo for che parte da 1 al numero che ho messo in input alla funzione */
@@ -11,8 +23,7 @@ function stampaTabelline(numeroInteri) {
          * l'outup mi serve sia a rray  perchè poi dvo passarlo ad una fumnzione che me lo inserisce nelle righe
          * con i lciclo for: 1 primo opertiore e 10 il limite
          * dentro il ciclo for gli fdo una classe col con attributo e con la inner html ho inserito il prodotto dllla mia moltiplicazione, l'indiice me lo da in input
-         * la funzione (prima riga 1 2 3 ecc) poi inserisco il dive nel mio array e lo restituisco in output alla funzioone
-         */
+         * la funzione (prima riga 1 2 3 ecc) poi inserisco il dive nel mio array e lo restituisco in output alla funzioone*/
         let cols = creaColonne(index);
         let riga = creaRiga(index, cols);
         div.appendChild(riga);
@@ -32,7 +43,7 @@ function creaColonne(index) {
 }
 
 /**
- * popoi creo la funzione crea riga con indice colonne creo l'elemtento della riga con il tag riga ed imposto ocn bottstra
+ * poi creo la funzione crea riga con indice colonne creo l'elemtento della riga con il tag riga ed imposto ocn bottstra
  * poi scorro array di colonne 
  * 
  * scorro array colonne e aapendo sulla riga, lelemento id della riga coem outoutdella funzione
